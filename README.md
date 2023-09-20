@@ -40,7 +40,7 @@ Pour installer le virus :
   ```
 - Puis, pour lancer un programme, entrer la commande suivante :
   ```bash
-  ./'nomProgramme'
+  ./'nomPG' # exemple : ./MonPG1!
   ```
 
 ## Ajouts possibles
