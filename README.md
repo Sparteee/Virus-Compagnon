@@ -35,14 +35,13 @@ Pour installer le virus :
   apt-get install libgtk-3-dev
   ```
 - Pour compiler les 6 programmes :
-```bash
-./cmp.sh
-```
-
+  ```bash
+  ./cmp.sh
+  ```
 - Puis, pour lancer un programme, entrer la commande suivante :
-```bash
-./'nomProgramme'
-```
+  ```bash
+  ./'nomProgramme'
+  ```
 
 ## Ajouts possibles
 - Réaliser des programmes plus avancés et avec plus d'interfaces graphiques.
