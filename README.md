@@ -15,16 +15,15 @@ Ce projet contient :
 - Un fichier de compilation "cmp.sh" pour compiler tous les programmes utilisant GTK
 
 
-
 ## Programmes
 
 5 programmes sont présents pour tester ce virus : 
 
 1. MonPG1 : Calculatrice fonctionnel avec une interface grapghique réalisé avec GTK
-1. MonPG2 : Color picker avec une interface graphique réalisé avec GTK
-1. MonPG3 : Utilitaire pour calculer le théorème de Pythagore et sa réciproque
-1. MonPG4 : Mini-jeu style Juste Prix 
-1. MonPG5 : Utilitaire permettant de calculer tous les nombres premiers entre 2 et la valeur entrée par l'utilisateur
+2. MonPG2 : Color picker avec une interface graphique réalisé avec GTK
+3. MonPG3 : Utilitaire pour calculer le théorème de Pythagore et sa réciproque
+4. MonPG4 : Mini-jeu style Juste Prix 
+5. MonPG5 : Utilitaire permettant de calculer tous les nombres premiers entre 2 et la valeur entrée par l'utilisateur
 
 
 ## Installation & lancement
@@ -40,7 +39,7 @@ Pour installer le virus :
 ./cmp.sh
 ```
 
-Puis, pour lancer un programme, entrer la commande suivante :
+- Puis, pour lancer un programme, entrer la commande suivante :
 ```bash
 ./'nomProgramme'
 ```
