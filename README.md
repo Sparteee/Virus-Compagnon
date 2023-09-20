@@ -49,5 +49,5 @@ Puis, pour lancer un programme, entrer la commande suivante :
 - Réaliser des programmes plus avancés et avec plus d'interfaces graphiques.
 - Réaliser une version obfusquée et assombrie du code pour masquer la partie virale.
 
-## Ateurs
+## Auteurs
 Ce projet à été réalisé avec l'aide de [Stefan EVEN](https://github.com/seven0001)
