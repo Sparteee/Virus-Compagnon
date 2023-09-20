@@ -1,7 +1,7 @@
 # Virus Compagnon
 
 ## Description
-Virus de type compagnon crée dans le cadre d'un projet scolaire (ULR).
+Virus de type compagnon réalisé dans le cadre d'un projet d'étude à l'Université de La Rochelle.
 
 Le fichier MediaPlayer.exe infecte tous les exécutables du même répertoire à son lancement en se dupliquant. Puis à chaque lancement d'un programme infecté, une nouvelle infection se lance sur les nouveaux exe non infectés du répertoire.
 
@@ -10,44 +10,44 @@ Le tout se déroulant en arrière-plan pour ne pas éveiller les soupçons de l'
 ## Contenu
 Ce projet contient : 
 - le virus/lecteur de médias principal 'MediaPlayer.exe'
-- 5 mini-programmes de test
-- plusieurs images pour tester le lecteur de médias
-- 2 fichiers .glade permettant de faire fonctionner les interfaces graphiques
-- un fichier d'installation 'install.sh'
+- 5 programmes de test
+- plusieurs images d'extension différents pour tester le lecteur de médias
+- Un fichier de compilation "cmp.sh" pour compiler tous les programmes utilisant GTK
 
 
 
-## Mini-programmes
+## Programmes
 
-5 <b>mini</b>-programmes sont présents pour tester ce virus : 
+5 programmes sont présents pour tester ce virus : 
 
-1. MonPG1 : Convertisseur de taille : mètres -> pieds
-1. MonPG2 : Calculatrice avec interface graphique
-1. MonPG3 : Utilitaire retournant le mot le plus long d'une phrase
-1. MonPG4 : Mini-jeu du Juste Prix 
-1. MonPG5 : Utilitaire permettant de calculer une moyenne
+1. MonPG1 : Calculatrice fonctionnel avec une interface grapghique réalisé avec GTK
+1. MonPG2 : Color picker avec une interface graphique réalisé avec GTK
+1. MonPG3 : Utilitaire pour calculer le théorème de Pythagore et sa réciproque
+1. MonPG4 : Mini-jeu style Juste Prix 
+1. MonPG5 : Utilitaire permettant de calculer tous les nombres premiers entre 2 et la valeur entrée par l'utilisateur
 
 
 ## Installation & lancement
 
-Pour installer le bot, procédez comme tel :
-- Commenter les lignes non-nécessaires du fichier install.sh (apt update & upgrade)
-- Entrer la commande suivante pour compiler les 6 programmes :
-
+Utilisation du virus préférable sous Linux
+Pour installer le virus :
+- Installez GTK :
+  ```bash
+  apt-get install libgtk-3-dev
+  ```
+- Pour compiler les 6 programmes :
 ```bash
-./install.sh
+./cmp.sh
 ```
 
 Puis, pour lancer un programme, entrer la commande suivante :
 ```bash
-./'nomProgramme'.sh
+./'nomProgramme'
 ```
 
 ## Ajouts possibles
-Nous n'avons pas eu assez de temps pour finir ce projet comme nous le souhaitions. Les modifications que nous aurions aimé effectuer sont les suivantes :
-- Recadrer les images dans le lecteur de médias pour permettre autre chose que des .png.
-- Réaliser des mini-programmes plus avancés et avec plus d'interfaces graphiques.
+- Réaliser des programmes plus avancés et avec plus d'interfaces graphiques.
 - Réaliser une version obfusquée et assombrie du code pour masquer la partie virale.
 
 ## Ateurs
-Ce projet à été réalisé avec l'aide de [Romain Piet](https://github.com/Jhyiin)
+Ce projet à été réalisé avec l'aide de [Stefan EVEN](https://github.com/seven0001)
